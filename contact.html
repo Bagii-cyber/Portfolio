@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Malith Bhagya." />
+  <title>Malith Bhagya | Contact</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body class="contact-page">
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html"><span>MB</span> Malith</a>
+
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">
+        <i></i>
+        <i></i>
+      </button>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a class="nav-contact active" href="contact.html">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-main">
+      <div class="reveal">
+        <p class="eyebrow"><span></span>Contact me</p>
+        <h1>
+          Let's start a<br />
+          <em>conversation.</em>
+        </h1>
+        <p>
+          Have an opportunity, project or question? Send me a message and I'll get back to you.
+        </p>
+        <a class="email-link" href="mailto:malithbhagya5@gmail.com">malithbhagya5@gmail.com ↗</a>
+      </div>
+
+      <form id="contact-form" class="contact-form reveal" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Smith" required />
+            <small></small>
+          </div>
+
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="jane@example.com" required />
+            <small></small>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Opportunity / project / question" required />
+          <small></small>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me what you have in mind…" required></textarea>
+          <small></small>
+        </div>
+
+        <button class="button dark" type="submit">Send message ↗</button>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="logo" href="index.html"><span>MB</span> Malith</a>
+      <p>Learning, building and growing—one challenge at a time.</p>
+    </div>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="https://www.instagram.com/malithnotfound" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+      <a href="https://www.tiktok.com/@definitelynotmalith" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+    </div>
+
+    <p class="copyright">© <span data-year></span> Malith Bhagya</p>
+  </footer>
+</body>
+</html>
